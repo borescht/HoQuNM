@@ -1,0 +1,1 @@
+{"datafile": null, "wards": ["ICU1", "IMC", "PACU"], "capacities": [21, 8, 4], "startdate": "2019-01-01", "enddate": "2019-12-01", "cart": {"wards": ["ICU1", "IMC"], "max_depth": 4, "min_samples_leaf": 200}, "window_size": 90.0, "adjust_pacu_occupancy": true, "output_dir": null}

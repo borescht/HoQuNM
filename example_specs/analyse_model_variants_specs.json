@@ -1,0 +1,1 @@
+{"modelfiles": [null],"wards": ["ICU1", "IMC", "PACU"],"capacities": [21, 8, 4], "adjust_int_rates": {"ICU1":  0.8, "IMC":  0.0, "PACU":  1.0},"waitings": {"ICU1":  ["PACU"]}, "DES_specs": {"processors": 1, "eval_time": 500, "max_eval_time": 8000, "run_size": 5, "max_runs": 20, "error_bound_single": 0.001, "error_bound": 0.0001}, "output_dir": null}

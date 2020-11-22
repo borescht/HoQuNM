@@ -1,0 +1,21 @@
+# Whitelist .gitignore
+
+# Ignore everything by default
+*
+
+# Look in all (sub)-directories
+!*/
+
+#ignore env directories
+*-env/
+
+# Only look for the following file endings
+!*.ini
+!*.md
+!*.py
+!*.yml
+
+!Makefile
+!.pylintrc
+!.gitignore
+!.style.yapf

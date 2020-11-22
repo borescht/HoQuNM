@@ -1,0 +1,33 @@
+[MASTER]
+jobs=0
+
+[MESSAGES CONTROL]
+
+disable=too-many-lines,
+        too-few-public-methods,
+        logging-format-interpolation,
+        logging-fstring-interpolation,
+        no-else-return,
+        bad-continuation,
+        C0103
+
+[BASIC]
+
+good-names=logger
+
+argument-rgx=[a-z_][a-z0-9_]{0,30}$
+variable-rgx=[a-z_][a-z0-9_]{0,30}$
+attr-rgx=[a-z_][a-z0-9_]{0,30}$
+
+[DESIGN]
+max-args=20
+max-attributes=20
+max-locals=30
+max-statements=100
+max-public-methods=40
+max-branches=30
+
+[MISCELLANEOUS]
+notes=FIXME
+
+extension-pkg-whitelist=numpy

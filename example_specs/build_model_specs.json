@@ -1,0 +1,1 @@
+{"datafile": null, "wards": ["ICU1", "IMC", "PACU"], "capacities": [21, 8, 4], "startdate": "2019-01-01", "enddate": "2019-12-01", "cart": {"wards": ["ICU1", "IMC"], "max_depth": 4, "min_samples_leaf": 200}, "hypererlang": {"processors": 1, "N": 10,"convergence_criteria": [1e-4, 1e-6, 1e-8], "maximal_distributions": [50,25,1]} ,"adjust_pacu_occupancy": true, "output_dir": null}

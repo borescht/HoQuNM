@@ -1,0 +1,5 @@
+{"input_dir": null,
+  "optimisation_specs": {"utilisation_constraints": [0.8, 0.8, 0.8],
+    "bed_costs": [0.8, 0.8, 0.8], "rejection_costs": [0.25, 0.25, 0.25], "eps_rejection": 0.05, "eps_profit_rejection": 1
+  },
+  "output_dir": null}
